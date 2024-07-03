@@ -26,21 +26,24 @@ const App = () => {
       }, []);
 
     useEffect(() => {
-        const filteredPlaces = places.filter((place) => place.rating > rating)
+        const filteredPlaces = places.filter((place) => place.rating > rating);
         setFilteredPlaces(filteredPlaces);
     }, [rating]);
 
 
-    useEffect(() => {        
-        setIsLoading(true);
+    useEffect(() => {
+        if(bounds.sw && bounds.ne) {
 
-        getPlacesData(type, bounds.sw, bounds.ne)
-        .then((data) => {
-            setPlaces(data);
-            setFilteredPlaces([])
-            setIsLoading(false);
-        })
-    }, [type, coordinates, bounds]);
+            setIsLoading(true);
+
+            getPlacesData(type, bounds.sw, bounds.ne)
+            .then((data) => {
+                setPlaces(data?.filter((place) => place.name && place.num_reviews > 0));
+                setFilteredPlaces([])
+                setIsLoading(false);
+            })
+        }
+    }, [type, bounds]); 
 
 
     return (
