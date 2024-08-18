@@ -1,10 +1,5 @@
-![Screenshot 2024-08-18 105034](https://github.com/user-attachments/assets/e5f6d987-4949-41df-8e52-8d611df58ce0)LIVE HOST: https://travelie-tushar.netlify.app/
-
-![Screenshot 2024-08-18 105034](https://github.com/user-attachments/assets/434478ac-ff31-480f-bf76-4fbb4149f1a7)
-
-Here's a suggested README content for your GitHub repository:
-
----
+LIVE HOST: https://travelie-tushar.netlify.app/
+![Screenshot 2024-08-18 105034](https://github.com/user-attachments/assets/e5f6d987-4949-41df-8e52-8d611df58ce0)
 
 # Travelie - Explore New Places
 
@@ -17,16 +12,12 @@ Travelie is a web application designed to help tourists easily find nearby attra
 - **Detailed Information**: Each place comes with a detailed description, ratings, and reviews to help users choose the best options.
 - **Filter and Sort**: Users can filter places by type (e.g., restaurants, hotels) and sort them by rating or distance.
 
-## Screenshots
-
-![Travelie Interface](./path_to_screenshot/Screenshot.png)
-
 ## Installation
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/travelie.git
+   git clone https://github.com/twoChar/travelie.git
    cd travelie
    ```
 
@@ -54,14 +45,10 @@ Travelie is a web application designed to help tourists easily find nearby attra
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ## Contact
 
-For any inquiries, feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+For any inquiries, feel free to contact me at [tucy254@example.com](mailto:tucy254@example.com).
 
 ---
 
-You can modify the sections to include more details or add additional sections like "Known Issues" or "Future Enhancements" based on your needs.
