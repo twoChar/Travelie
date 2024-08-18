@@ -1,4 +1,5 @@
 LIVE HOST: https://travelie-tushar.netlify.app/
+
 ![Screenshot 2024-08-18 105034](https://github.com/user-attachments/assets/e5f6d987-4949-41df-8e52-8d611df58ce0)
 
 # Travelie - Explore New Places
